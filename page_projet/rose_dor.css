@@ -1,0 +1,121 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+@font-face {
+    font-family: "Vogue";
+    src: url("Ressources/Fonts/Vogue.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: "Champagne";
+    src: url("Ressources/Fonts/champagne_limousines/Champagne_Limousines.ttf") format("ttf"),
+        url("Ressources/Fonts/champagne_limousines/Champagne_Limousines_Bold.ttf") format("ttf"),
+        url("Ressources/Fonts/champagne_limousines/Champagne_Limousines_Bold_Italic.ttf") format("ttf"),
+        url("Ressources/Fonts/champagne_limousines/Champagne_Limousines_Italic.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: "Redemption";
+    src: url("Ressources/Fonts/Redemption.ttf") format("ttf");
+}
+
+.navbar{
+    background-color: #b9a557;
+    font-family: "Vogue";
+}
+
+.navbar .book{
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+    font-size: 30px;
+}
+
+.pres{
+    height: 94%;
+    background-image: url("../Ressources/Images/projet/rose_dor.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+}
+
+.container .row{
+    background-color: yellow;
+}
+.col-lg-2{
+    background-color: black;
+}
+
+.titre{
+    display: inline-flex;
+    background-color: #b9a557;
+    color: #ffffff;
+    font-family: "Vogue";
+    font-size: 5vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+}
+
+.scolaire{
+    color: #b9a557;
+    font-family: "Vogue";
+    font-size: 35px;
+}
+
+.text-justify{
+    font-family: "Champagne";
+    font-size: 25px;
+    background-color: #ffffff;
+}
+
+.photo{
+    width: 75%!important;
+    height: 100%!important;
+}
+
+@media (max-width:991px){
+    .photo{
+        width: 100%!important;
+    }
+    .page-footer h3{
+        display: none;
+    }
+    .page-footer p{
+        display: none;
+    }
+}
+
+.boite{
+    font-family: "Redemption";
+    font-size: 35px;
+    color: #b9a557;
+}
+
+.page-footer{
+    background-color: #b9a557;
+}
+
+.page-footer h3{
+    font-family: "Vogue";
+    font-size: 25px;
+    color: #ffffff;
+    clear: both;
+}
+
+.page-footer p{
+    font-family: "Champagne";
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.page-footer a{
+    text-decoration: none;
+}
+
+.page-footer .carousel-control-next-icon{
+    float: right;
+}

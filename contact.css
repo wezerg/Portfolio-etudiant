@@ -1,0 +1,63 @@
+html, body{
+    height: 100%;
+    width: 100%; 
+    background-color: #101013;
+}
+
+body{
+    background-image: url("Ressources/Images/contact.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@font-face {
+    font-family: "Redemption";
+    src: url("Ressources/Fonts/Redemption.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: "Vogue";
+    src: url("Ressources/Fonts/Vogue.ttf") format("ttf");
+}
+
+
+@font-face {
+    font-family: "Champagne";
+    src: url("Ressources/Fonts/champagne_limousines/Champagne_Limousines.ttf") format("ttf"),
+        url("Ressources/Fonts/champagne_limousines/Champagne_Limousines_Bold.ttf") format("ttf"),
+        url("Ressources/Fonts/champagne_limousines/Champagne_Limousines_Bold_Italic.ttf") format("ttf"),
+        url("Ressources/Fonts/champagne_limousines/Champagne_Limousines_Italic.ttf") format("ttf");
+}
+
+.navbar{
+    font-family: "Vogue";
+}
+
+h1{
+    font-family: "Vogue";
+    font-size: 100px;
+    color: #ffffff;
+    margin-bottom: 50px;
+}
+
+@media(max-width:991px){
+    h1{
+        font-family: "Vogue";
+        font-size: 65px;
+        color: #ffffff;
+    }
+}
+
+.form-control, .btn{
+    border-radius: 25px;
+    font-family: "Champagne";
+    font-size: 25px;
+}
+
+.form-group{
+    margin-bottom: 40px;
+}
+.btn{
+    padding-left: 50px;
+    padding-right: 50px;
+}

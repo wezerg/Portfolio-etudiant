@@ -1,0 +1,126 @@
+html, body {
+    background-color: #101013;
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-image: url("Ressources/Images/projet.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@font-face {
+    font-family: "Vogue";
+    src: url("Ressources/Fonts/Vogue.ttf") format("ttf");
+}
+
+
+@font-face {
+    font-family: "Champagne";
+    src: url("Ressources/Fonts/champagne_limousines/Champagne_Limousines.ttf") format("ttf"),
+        url("Ressources/Fonts/champagne_limousines/Champagne_Limousines_Bold.ttf") format("ttf"),
+        url("Ressources/Fonts/champagne_limousines/Champagne_Limousines_Bold_Italic.ttf") format("ttf"),
+        url("Ressources/Fonts/champagne_limousines/Champagne_Limousines_Italic.ttf") format("ttf");
+}
+
+.navbar{
+    font-family: "Vogue";
+}
+
+h1{
+    font-family: "Vogue";
+    font-size: 80px;
+    color: #ffffff;
+}
+
+.container-fluid {
+    height: 94%!important;
+}
+
+.container-fluid .titre{
+    height: 30%!important;
+}
+
+.container-fluid .col-lg-2{
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+h2{
+    position: relative;
+    user-select: none;
+    -webkit-user-select: none; 
+    -webkit-touch-callout: none; 
+    -moz-user-select: none;
+    color: #ffffff;
+    top: -60%;
+    font-family: "Vogue";
+    font-size: 25px;
+}
+    
+p{
+    position: relative;
+    top: -62.5%;
+    user-select: none;
+    -webkit-user-select: none; 
+    -webkit-touch-callout: none; 
+    -moz-user-select: none;
+    color: #ffffff;
+    font-family: "Champagne";
+    font-size: 20px;
+}
+
+@media (min-width: 992px){
+    .container-fluid .projet{
+        height: 35%!important;
+    }
+    img{
+        opacity: 0;
+    }
+    .col-lg-2:hover a>img{
+        opacity: 100;
+        transition-duration: 2.5s;
+    }
+    .col-lg-2:hover h2{
+        color: #000000;
+        background-color: #FFFFFF;
+        opacity: 70;
+        transition-duration: 2.5s;
+    }
+    .col-lg-2:hover p{
+        color: #000000;
+        background-color: #FFFFFF;
+        opacity: 70;
+        transition-duration: 2.5s;
+    }
+    h1{
+        font-family: "Vogue";
+        font-size: 135px;
+        color: #ffffff;
+    }
+    .col-lg-2{
+        height: 100%!important;
+    }
+}
+
+@media (max-width: 991px){
+    .col-lg-2{
+        height: 30rem;
+    }
+    h2{
+        color: #000000;
+        background-color: #FFFFFF;
+        opacity: 70;
+    }
+    p{
+        color: #000000;
+        background-color: #FFFFFF;
+        opacity: 70;
+        top: -61.5%;
+    }
+}

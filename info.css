@@ -1,0 +1,138 @@
+html, body {
+    background-color: #101013;
+    height: 100%;
+    width: 100%;
+}
+
+@font-face {
+    font-family: "Redemption";
+    src: url("Ressources/Fonts/Redemption.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: "Vogue";
+    src: url("Ressources/Fonts/Vogue.ttf") format("ttf");
+}
+
+
+@font-face {
+    font-family: "Champagne";
+    src: url("Ressources/Fonts/champagne_limousines/Champagne_Limousines.ttf") format("ttf"),
+        url("Ressources/Fonts/champagne_limousines/Champagne_Limousines_Bold.ttf") format("ttf"),
+        url("Ressources/Fonts/champagne_limousines/Champagne_Limousines_Bold_Italic.ttf") format("ttf"),
+        url("Ressources/Fonts/champagne_limousines/Champagne_Limousines_Italic.ttf") format("ttf");
+}
+
+@media(max-width:991px){
+    body{
+        background-image: url("Ressources/Images/a_propos/a_propos.svg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .competence .col-lg-4 img{
+        margin-top: 15px;
+    }
+}
+
+@media(min-width:992px){
+    .competence .col-lg-4{
+        padding-top: 16px;
+    }
+}
+
+.navbar{
+    font-family: "Vogue";
+    background-color: #101013;
+}
+
+.propos h1{
+    font-family: "Vogue";
+    font-size: 50px;
+    color: #ffffff;
+}
+
+.propos p{
+    font-family: "Champagne";
+    font-size: 22px;
+    color: #ffffff;
+}
+
+h2{
+    font-family: "Vogue";
+    font-size: 40px;
+    color: #ffffff;
+}
+
+.fond{
+    height: 100%;
+}
+
+.col-lg-5{
+    background-image: url("Ressources/Images/a_propos/a_propos.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.competence .col-lg-4 h3{
+    font-family: "Champagne";
+    font-size: 30px;
+    color: #ffffff;
+    margin-right: 2vw;
+    clear: none;
+    padding-top: 10px;
+}
+
+.competence .col-lg-4 p{
+    font-family: "Champagne";
+    font-size: 18px;
+    color: #ffffff;
+    padding-top: 12px;
+}
+
+.competence .col-lg-4 img{
+    height: 50px;
+    width: 50px;
+    float: left;
+    margin-left: 20px;
+}
+
+.col-lg-4:hover{
+    box-shadow: -3px 3px 15px 5px black;
+    z-index: 200;
+}
+
+.case1{
+    background-color: #062026;
+}
+
+.case2{
+    background-color: #2E0013;
+}
+
+.case3{
+    background-color: #261301;
+}
+
+.case4{
+    background-color: #2E001F;
+}
+
+.case5{
+    background-color: #2E2B2B;
+}
+
+.case6{
+    background-color: #1F0240;
+}
+
+.case7{
+    background-color: #9A3319;
+}
+
+.case8{
+    background-color: #132F98;
+}
+
+.case9{
+    background-color: #7D479A;
+}
